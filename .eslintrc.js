@@ -4,10 +4,9 @@ module.exports = {
         "es2021": true
     },
     "extends": [
-        
+        "@react-native-community",
         "eslint:recommended",
-        "plugin:react/recommended",
-        "@react-native-community"
+        "plugin:react/recommended"
     ],
     "overrides": [
         {
@@ -38,4 +37,4 @@ module.exports = {
             {function: true, classes:true,variables: false}
         ]
     }
-} 
+}
